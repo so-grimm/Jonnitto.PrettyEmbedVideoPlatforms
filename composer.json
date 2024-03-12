@@ -25,7 +25,13 @@
         }
     ],
     "require": {
-        "jonnitto/prettyembedhelper": "^6.0 || dev-master"
+        "jonnitto/prettyembedhelper": "^6.0 || dev-neos9-compatibility"
+    },
+    "repositories": {
+        "prettyEmbedHelper": {
+            "type": "git",
+            "url": "https://github.com/so-grimm/Jonnitto.PrettyEmbedHelper.git"
+        }
     },
     "autoload": {
         "psr-4": {
